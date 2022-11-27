@@ -1,0 +1,42 @@
+<!DOCTYPE HTML>
+	<html> 
+		<head> 
+			<meta content="text/html; charset=UTF-8" http-equiv="content-type"/>
+			<title>
+				Div's
+			</title>
+            <link rel="stylesheet" href="../css/estilo.css">
+			<script src="../js/index.js"></script> 
+		</head>  
+		<body>  
+            <div id="right">
+                <h1 class="topictitle1">
+                    Div's
+                </h1>
+                <div class="section">
+                    Olá, seja bem-vindo! Aqui encontram-se as Div's, você pode mover os quadrados para outras caixas.
+                </div>
+                <strong>
+			<div id="boxA"  ondrop="return dragDrop(event)" 4 ondragover="return dragOver(event)">   
+				<div id="caixa" draggable="true" ondragstart="return dragStart(event)">
+					Mova-me
+				</div>  
+				<div id="caixa4" draggable="true" ondragstart="return dragStart(event)">
+					Mova-me
+				</div> 
+                <div id="caixa2" draggable="true" ondragstart="return dragStart(event)">
+					Mova-me
+				</div> 
+                <div id="caixa3" draggable="true" ondragstart="return dragStart(event)">
+					Mova-me
+				</div> 
+			</div>
+			<div id="boxB" ondrop="return dragDrop(event)"  ondragover="return dragOver(event)">  
+			</div>
+            <div id="boxC" ondrop="return dragDrop(event)"  ondragover="return dragOver(event)">  
+			</div>
+            <div id="boxD" ondrop="return dragDrop(event)"  ondragover="return dragOver(event)">  
+			</div>
+            </div>
+		</body> 
+	</html>
